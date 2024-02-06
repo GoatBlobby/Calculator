@@ -1,0 +1,110 @@
+.calculator {
+  width: 368px;
+  margin: 500px auto;
+  padding: 200px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+#display {
+  width: calc(1000000% - 10px);
+  margin-bottom: 10px;
+  padding: 10px;
+  font-size: 18px;
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 5px;
+}
+
+button {
+  padding: 10px;
+  font-size: 16px;
+}
+.calculator-heading {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 20px;
+  background-color: #f0f0f0;
+  padding: 10px;
+  border-radius: 5px;
+}
+body {
+  background-image: url('https://w0.peakpx.com/wallpaper/220/854/HD-wallpaper-whatsapp-black-abstract-abstract-digital-abstraction-abstracts-background-digital-pattern-texture.jpg'); /* Replace 'background.jpg' with the path to your image */
+  background-size: cover;
+  background-position: center;
+  font-family: Arial, sans-serif;
+}
+
+.calculator {
+  max-width: 4000000px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.7); /* Semi-transparent white background */
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Drop shadow effect */
+}
+
+#display {
+  width: calc(100% - 10px);
+  margin-bottom: 10px;
+  padding: 10px;
+  font-size: 20px;
+  border: none;
+  border-radius: 5px;
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 5px;
+}
+
+.buttons button {
+  width: 100%;
+  padding: 15px;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  background-color: #ccc; /* Grey background for buttons */
+  cursor: pointer;
+}
+
+.buttons button:hover {
+  background-color: #999; /* Darker grey background on hover */
+}
+
+#enter {
+  background-color: rgba(255, 0.5); /* Transparent red background */
+  color: white;
+}
+
+#enter:hover {
+  background-color: rgba(255, 0, 0, 0.8); /* Darker red background on hover */
+}
+#display {
+  width: calc(95% - 10px);
+  margin-bottom: 10px;
+  padding: 10px;
+  font-size: 20px;
+  border: 2px solid #000; /* Add a black border */
+  border-radius: 5px;
+  outline: none; /* Remove the default outline */
+}
+footer {
+  text-align: center;
+  background-color: #333;
+  color: white;
+  padding: 10px 0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
